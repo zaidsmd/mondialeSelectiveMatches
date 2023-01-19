@@ -16,7 +16,7 @@ echo "<table class='col-10'>
 for ($i=0; $i< count($group["countries"]);$i++){
     echo "<tr>
             <td>".($i+1)."</td>
-            <td>".$group["countries"][$keys[$i]]["name"]."</td>
+            <td>".str_ireplace("_"," ",$group["countries"][$keys[$i]]["name"])."</td>
             <td>".$group["countries"][$keys[$i]]["mp"]."</td>
             <td>".$group["countries"][$keys[$i]]["w"]."</td>
             <td>".$group["countries"][$keys[$i]]["d"]."</td>

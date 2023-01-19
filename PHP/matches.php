@@ -2,7 +2,7 @@
 foreach ($groups as $group) {
     $keys = array_keys($group["countries"]);
     echo "
-    <form action='" . htmlspecialchars($_SERVER["PHP_SELF"]) . "' id='" . str_ireplace(" ", "", $group["name"]) . "' class='hide' method='post'>
+    <form action='" . htmlspecialchars($_SERVER["PHP_SELF"]) . "' id='" .str_ireplace(" ","",$group["name"]). "' class='hide' method='post'>
     <div class='container d-flex flex-wrap col-12'>
         <div class='card col-5'>
             <div class='card-body'>
@@ -119,7 +119,7 @@ foreach ($groups as $group) {
             </div>
         </div>
     </div>
-    <input type='text' name='group' value='".str_ireplace("G","g",str_ireplace(" ","",$group["name"]))."'>
+    <input type='text' class='hide' name='group' value='".str_ireplace("G","g",str_ireplace(" ","",$group["name"]))."'>
     <input type='submit' value='Simulate'>";
     include "PHP/table.php";
     echo "</form>";

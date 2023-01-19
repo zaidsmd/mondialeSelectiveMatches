@@ -10,14 +10,14 @@ $groupA = ["name" => "Group A",
 $groupB = ["name" => "Group B",
     "countries"=>[
         "Georgia" => ["name" => "Georgia", "flag" => "GE", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
-        "United States" => ["name" => "United States", "flag" => "US", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
+        "United_States" => ["name" => "United_States", "flag" => "US", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Iran" => ["name" => "Iran", "flag" => "IR", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Honduras" => ["name" => "Honduras", "flag" => "HN", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0]
     ]
 ];
 $groupC = ["name" => "Group C",
     "countries"=>[
-        "Saudi Arabia" => ["name" => "Saudi Arabia", "flag" => "SA", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
+        "Saudi_Arabia" => ["name" => "Saudi_Arabia", "flag" => "SA", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Poland" => ["name" => "Poland", "flag" => "PL", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Argentina" => ["name" => "Argentina", "flag" => "AR", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Mexico" => ["name" => "Mexico", "flag" => "MX", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0]
@@ -58,7 +58,7 @@ $groupG = ["name" => "Group G",
 $groupH = ["name" => "Group H",
     "countries"=>[
         "Portugal" => ["name" => "Portugal", "flag" => "PT", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
-        "South Korea" => ["name" => "South Korea", "flag" => "KR", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
+        "South_Korea" => ["name" => "South_Korea", "flag" => "KR", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Uruguay" => ["name" => "Uruguay", "flag" => "UY", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0],
         "Ghana" => ["name" => "Ghana", "flag" => "GH", "mp" => 0, "w" => 0, "d" => 0,"l"=>0,"gf"=>0,"ga"=>0,"gd"=>0,"pts"=>0]
     ]
