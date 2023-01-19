@@ -6,4 +6,4 @@ document.querySelectorAll('.card-body .btn-primary').forEach(e=>{
         document.querySelector("#"+e.dataset.target).classList.remove('hide');
     })
 });
-document.querySelector('#GroupA').classList.remove('hide');
+
