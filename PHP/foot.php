@@ -5,21 +5,36 @@
 <script type="text/javascript" >
     document.querySelector("#<?php if (isset($_POST["group"])){ echo str_ireplace('g','G',$_POST["group"]); }else{ echo "GroupA" ;}?>").classList.remove('hide');
     <?php
-        if ((isset($_POST["group"]))){
-//            echo "
-//            document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$group["countries"][$keys[0]]["name"]."M1').value =".$match1[$group["countries"][$keys[0]]["name"]].";
-//            ";
-//            echo "
-//            document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$group["countries"][$keys[1]]["name"]."M1').value =".$match1[$group["countries"][$keys[1]]["name"]]."
-//            ";
-//            echo "
-//            document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$group["countries"][$keys[2]]["name"]."M1').value =".$match2[$group["countries"][$keys[2]]["name"]]."
-//            ";
-//            echo "
-//            document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$group["countries"][$keys[3]]["name"]."M1').value =".$match2[$group["countries"][$keys[3]]["name"]]."
-//            ";
+        if (isset($_POST["group"])){
+            $group = $_POST["group"];
+            $keys = array_keys($$group["countries"]);
+            if ($match1!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[0]]["name"]."M1').value = ".$match1[$keys[0]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[1]]["name"]."M1').value = ".$match1[$keys[1]].";";
+            }
+            if ($match2!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[2]]["name"]."M1').value = ".$match2[$keys[2]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[3]]["name"]."M1').value = ".$match2[$keys[3]].";";
+            }
+            if ($match3!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[0]]["name"]."M2').value = ".$match3[$keys[0]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[2]]["name"]."M2').value = ".$match3[$keys[2]].";";
+            }
+            if ($match4!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[1]]["name"]."M2').value = ".$match4[$keys[1]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[3]]["name"]."M2').value = ".$match4[$keys[3]].";";
+            }
+            if ($match5!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[0]]["name"]."M3').value = ".$match5[$keys[0]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[3]]["name"]."M3').value = ".$match5[$keys[3]].";";
+            }
+            if ($match6!= null){
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[1]]["name"]."M3').value = ".$match6[$keys[1]].";";
+                echo "document.querySelector('#".str_ireplace('g','G',$_POST["group"])." #".$$group["countries"][$keys[2]]["name"]."M3').value = ".$match6[$keys[2]].";";
+            }
         }
     ?>
+
 </script>
 </body>
 </html>

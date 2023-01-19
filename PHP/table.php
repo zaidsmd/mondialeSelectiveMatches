@@ -13,18 +13,20 @@ echo "<table class='col-10'>
             <th>Pts</th>
         </tr>
         ";
+$groupToSort=$group["countries"];
+usort($groupToSort,"customSort");
 for ($i = 0; $i < count($group["countries"]); $i++) {
     echo "<tr>
             <td>" . ($i + 1) . "</td>
-            <td>" . str_ireplace("_", " ", $group["countries"][$keys[$i]]["name"]) . "</td>
-            <td>" . $group["countries"][$keys[$i]]["mp"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["w"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["d"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["l"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["gf"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["ga"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["gd"] . "</td>
-            <td>" . $group["countries"][$keys[$i]]["pts"] . "</td>
+            <td>" . str_ireplace("_", " ", $group["countries"][$groupToSort[$i]["name"]]["name"]) . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["mp"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["w"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["d"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["l"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["gf"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["ga"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["gd"] . "</td>
+            <td>" . $group["countries"][$groupToSort[$i]["name"]]["pts"] . "</td>
         </tr>";
 };
 echo "

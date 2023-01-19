@@ -11,12 +11,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[0]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[0]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[0]]["name"] . "M1' id='" . $group["countries"][$keys[0]]["name"] . "M1'>
+                    <input type='text' name='" . $group["countries"][$keys[0]]["name"] . "M1' id='" . $group["countries"][$keys[0]]["name"] . "M1'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[1]]["name"] . "M1' id='" . $group["countries"][$keys[1]]["name"] . "M1'>
+                    <input type='text' name='" . $group["countries"][$keys[1]]["name"] . "M1' id='" . $group["countries"][$keys[1]]["name"] . "M1'>
                     <label for='" . $group["countries"][$keys[1]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[1]]["flag"] . "/flat/64.png'>
                     </label>
@@ -30,12 +30,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[2]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[2]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[2]]["name"] . "M1' id='" . $group["countries"][$keys[2]]["name"] . "M1'>
+                    <input type='text' name='" . $group["countries"][$keys[2]]["name"] . "M1' id='" . $group["countries"][$keys[2]]["name"] . "M1'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[3]]["name"] . "M1' id='" . $group["countries"][$keys[3]]["name"] . "M1'>
+                    <input type='text' name='" . $group["countries"][$keys[3]]["name"] . "M1' id='" . $group["countries"][$keys[3]]["name"] . "M1'>
                     <label for='" . $group["countries"][$keys[3]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[3]]["flag"] . "/flat/64.png'>
                     </label>
@@ -49,12 +49,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[2]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[2]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[2]]["name"] . "M2' id='" . $group["countries"][$keys[2]]["name"] . "M2'>
+                    <input type='text' name='" . $group["countries"][$keys[2]]["name"] . "M2' id='" . $group["countries"][$keys[2]]["name"] . "M2'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[0]]["name"] . "M2' id='" . $group["countries"][$keys[0]]["name"] . "M2'>
+                    <input type='text' name='" . $group["countries"][$keys[0]]["name"] . "M2' id='" . $group["countries"][$keys[0]]["name"] . "M2'>
                     <label for='" . $group["countries"][$keys[0]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[0]]["flag"] . "/flat/64.png'>
                     </label>
@@ -68,12 +68,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[3]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[3]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[3]]["name"] . "M2' id='" . $group["countries"][$keys[3]]["name"] . "M2'>
+                    <input type='text' name='" . $group["countries"][$keys[3]]["name"] . "M2' id='" . $group["countries"][$keys[3]]["name"] . "M2'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[1]]["name"] . "M2' id='" . $group["countries"][$keys[1]]["name"] . "M2'>
+                    <input type='text' name='" . $group["countries"][$keys[1]]["name"] . "M2' id='" . $group["countries"][$keys[1]]["name"] . "M2'>
                     <label for='" . $group["countries"][$keys[1]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[1]]["flag"] . "/flat/64.png'>
                     </label>
@@ -87,12 +87,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[0]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[0]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[0]]["name"] . "M3' id='" . $group["countries"][$keys[0]]["name"] . "M3'>
+                    <input type='text' name='" . $group["countries"][$keys[0]]["name"] . "M3' id='" . $group["countries"][$keys[0]]["name"] . "M3'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[3]]["name"] . "M3' id='" . $group["countries"][$keys[3]]["name"] . "M3'>
+                    <input type='text' name='" . $group["countries"][$keys[3]]["name"] . "M3' id='" . $group["countries"][$keys[3]]["name"] . "M3'>
                     <label for='" . $group["countries"][$keys[3]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[3]]["flag"] . "/flat/64.png'>
                     </label>
@@ -106,12 +106,12 @@ foreach ($groups as $group) {
                     <label for='" . $group["countries"][$keys[2]]["name"] . "'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[2]]["flag"] . "/flat/64.png'>
                     </label>
-                    <input type='number' name='" . $group["countries"][$keys[2]]["name"] . "M3' id='" . $group["countries"][$keys[2]]["name"] . "M3'>
+                    <input type='text' name='" . $group["countries"][$keys[2]]["name"] . "M3' id='" . $group["countries"][$keys[2]]["name"] . "M3'>
                     <div>
                         <div class='circle'></div>
                         <div class='circle'></div>
                     </div>
-                    <input type='number' name='" . $group["countries"][$keys[1]]["name"] . "M3' id='" . $group["countries"][$keys[1]]["name"] . "M3'>
+                    <input type='text' name='" . $group["countries"][$keys[1]]["name"] . "M3' id='" . $group["countries"][$keys[1]]["name"] . "M3'>
                     <label for='" . $group["countries"][$keys[1]]["name"] . "M3'>
                         <img src='https://flagsapi.com/" . $group["countries"][$keys[1]]["flag"] . "/flat/64.png'>
                     </label>
