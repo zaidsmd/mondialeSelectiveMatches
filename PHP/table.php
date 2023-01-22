@@ -1,5 +1,6 @@
 <?php
-echo "<table class='col-10'>
+echo "<div class='table-responsive-sm col-11 d-sm-flex justify-content-center'>
+<table class='col-11' >
         <tr>
             <th>#</th>
             <th>Team</th>
@@ -13,8 +14,8 @@ echo "<table class='col-10'>
             <th>Pts</th>
         </tr>
         ";
-$groupToSort=$group["countries"];
-usort($groupToSort,"customSort");
+$groupToSort=$group["countries"]; # define the array of countries that must be sorted
+usort($groupToSort,"customSort"); #sort the countries inside the simulated group
 for ($i = 0; $i < count($group["countries"]); $i++) {
     echo "<tr>
             <td>" . ($i + 1) . "</td>
@@ -28,6 +29,7 @@ for ($i = 0; $i < count($group["countries"]); $i++) {
             <td>" . $group["countries"][$groupToSort[$i]["name"]]["gd"] . "</td>
             <td>" . $group["countries"][$groupToSort[$i]["name"]]["pts"] . "</td>
         </tr>";
-};
+}; // just loop to print the team and its stats
 echo "
-    </table>";
+    </table>
+    </div>";

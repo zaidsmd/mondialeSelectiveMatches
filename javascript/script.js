@@ -12,6 +12,9 @@ document.querySelectorAll("form").forEach(form=>{
           if (input.value!=""){
               if (!/^[0-9]+$/.test(input.value)){
                   e.preventDefault();
+                  document.querySelectorAll('.error').forEach(error=> error.classList.add("show"))
+              }else {
+                  document.querySelectorAll('.error').forEach(error=> error.classList.remove("show"))
               }
           }
        })

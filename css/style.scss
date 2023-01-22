@@ -99,16 +99,23 @@ section {
       display: flex;
       gap: 1rem;
       align-items: center;
+      span {
+        text-overflow: ellipsis !important;
+        -webkit-line-clamp: 1;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
   }
-  .btn-primary {
-    background-color: $secondary-color;
-    border: none;
-    outline: none;
-    width: 100%;
-    &:focus ,&:hover{
-      background-color: #c03677;
-    }
+}
+.btn-primary {
+  background-color: $secondary-color;
+  border: none;
+  outline: none;
+  width: 100%;
+  &:focus ,&:hover{
+    background-color: #c03677;
   }
 }
 .container {
@@ -170,4 +177,14 @@ table {
 }
 .hide {
   display: none !important;
+}
+.error {
+  color: red;
+  font: {
+    size: 1.5rem;
+  };
+  display: none;
+}
+.show {
+  display: block !important;
 }

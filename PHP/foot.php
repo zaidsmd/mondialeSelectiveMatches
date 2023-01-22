@@ -3,8 +3,10 @@
         crossorigin="anonymous"></script>
 <script src="javascript/script.js"></script>
 <script type="text/javascript" >
+    //this one is to make sure that the last group simulated is the one that will be shown when the form is submitted and page refreshes
     document.querySelector("#<?php if (isset($_POST["group"])){ echo str_ireplace('g','G',$_POST["group"]); }else{ echo "GroupA" ;}?>").classList.remove('hide');
     <?php
+        //this one is to refill the scores that was filled the input is updated with stats table
         if (isset($_POST["group"])){
             $group = $_POST["group"];
             $keys = array_keys($$group["countries"]);

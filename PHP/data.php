@@ -1,4 +1,5 @@
 <?php
+// stocking data in this way make it easy to reach and to sort dynamically
 $groupA = ["name" => "Group A",
     "countries" => [
         "Qatar" => ["name" => "Qatar", "flag" => "QA", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0],
@@ -36,7 +37,7 @@ $groupE = ["name" => "Group E",
         "Spain" => ["name" => "Spain", "flag" => "ES", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0],
         "Germany" => ["name" => "Germany", "flag" => "DE", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0],
         "Japan" => ["name" => "Japan", "flag" => "JP", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0],
-        "Costa Rica" => ["name" => "Costa Rica", "flag" => "CR", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0]
+        "Costa_Rica" => ["name" => "Costa_Rica", "flag" => "CR", "mp" => 0, "w" => 0, "d" => 0, "l" => 0, "gf" => 0, "ga" => 0, "gd" => 0, "pts" => 0]
     ]
 ];
 $groupF = ["name" => "Group F",

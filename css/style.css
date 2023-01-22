@@ -87,13 +87,21 @@ section {
   gap: 1rem;
   align-items: center;
 }
-.card .btn-primary {
+.card ul li span {
+  text-overflow: ellipsis !important;
+  -webkit-line-clamp: 1;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.btn-primary {
   background-color: rgb(146, 13, 78);
   border: none;
   outline: none;
   width: 100%;
 }
-.card .btn-primary:focus, .card .btn-primary:hover {
+.btn-primary:focus, .btn-primary:hover {
   background-color: #c03677;
 }
 
@@ -160,6 +168,16 @@ table td:first-child {
 
 .hide {
   display: none !important;
+}
+
+.error {
+  color: red;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.show {
+  display: block !important;
 }
 
 /*# sourceMappingURL=style.css.map */
